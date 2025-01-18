@@ -1,10 +1,11 @@
 <p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+    <img height="100" src="https://github.com/free-guru/free-guru-portfolio
+/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
 </p>
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/free-guru/github-portfolio)
 
 ---
 
@@ -102,12 +103,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Running with Docker Compose
 
 1. **Build Docker Image and Run Container**:
-    ```bash
-    docker-compose up --build
-    ```
+
+   ```bash
+   docker-compose up --build
+   ```
 
 2. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
+   Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
 
 ---
 
@@ -115,18 +117,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 1. **Build the Docker Image using Dockerfile.dev**:
 
-    ```bash
-    docker build -t nextjs-app -f Dockerfile.dev .
-    ```
+   ```bash
+   docker build -t nextjs-app -f Dockerfile.dev .
+   ```
 
 2. **Running the Docker Container**:
 
-    ```bash
-    docker run -p 3000:3000 nextjs-app
-    ```
+   ```bash
+   docker run -p 3000:3000 nextjs-app
+   ```
 
 3. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
+   Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
 
 ---
 
@@ -145,26 +147,21 @@ GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/free-guru/free-guru-portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "Emanuel Padilha",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
+  description: "My name is Emanuel Padilha....",
+  email: "emanuelaraujopadilha@gmail.com",
   phone: "+8801608797655",
   address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  github: "https://github.com/free-guru",
+  devUsername: "free-guru",
   resume: "...",
 };
 ```
